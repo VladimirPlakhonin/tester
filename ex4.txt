@@ -3,8 +3,6 @@
 НЕТУ КАПЧИ НА ФОРМАХ!!!
 
 
-
-
 траблы с загрузками на стороне клиента:
 vk.com/rtrg?r=OJz7ZINdzkVmzBEMT8MzMV5ceYQYX8Ytlpdp8HJUQwBXaz6yEcJNkQ*bg2wXD4DVKtBCi3ER*yO/lOY3Yvkzvt*zexxG1sjeHiVAZeanG8kJyWbmnBgcGaOiPy6cAwoxklR94MSDgQV92LVoHgm0ZtaLM9FDmgJZEBXNyfJO5yA- Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
 advert.gif Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
