@@ -1,0 +1,28 @@
+> db.users.find( { username: УjoeФ, age: 27 } );
+
+> db.users.find( { }, { username: 1, email: 1 } );
+
+ $lt Ч меньше, $lte Ч меньше или равно, $gt Ч больше, $gte Ч больше или равно, $ne Ч не равно.
+> db.users.find( { age: { $gte: 18, $lte: 30 } } );
+
+регул€рки
+> db.users.find( { "name" : /^joe$/i } );
+
+> db.users.find().limit(3);
+
+> db.users.find().skip(3); //ѕолучаем всех пользователей, кроме первых трЄх.
+
+> db.users.find().sort( { username : 1, age : -1 } ); //правила сортировки
+
+> db.user.insert({ 
+
+> db.user.update({ 
+	{title:"title1"},//where
+	{ $set: {desc:"desc1"} }//set
+})
+> db.user.remove({ 
+	"title.site":"title1"
+})
+> db.user.count({ 
+	"title.site":"title1"
+})
