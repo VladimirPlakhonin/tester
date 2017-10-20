@@ -1,18 +1,18 @@
-> db.users.find( { username: “joe”, age: 27 } );
+ï»¿> db.users.find( { username: â€œjoeâ€, age: 27 } );
 
 > db.users.find( { }, { username: 1, email: 1 } );
 
- $lt — ìåíüøå, $lte — ìåíüøå èëè ğàâíî, $gt — áîëüøå, $gte — áîëüøå èëè ğàâíî, $ne — íå ğàâíî.
+ $lt â€” Ğ¼ĞµĞ½ÑŒÑˆĞµ, $lte â€” Ğ¼ĞµĞ½ÑŒÑˆĞµ Ğ¸Ğ»Ğ¸ Ñ€Ğ°Ğ²Ğ½Ğ¾, $gt â€” Ğ±Ğ¾Ğ»ÑŒÑˆĞµ, $gte â€” Ğ±Ğ¾Ğ»ÑŒÑˆĞµ Ğ¸Ğ»Ğ¸ Ñ€Ğ°Ğ²Ğ½Ğ¾, $ne â€” Ğ½Ğµ Ñ€Ğ°Ğ²Ğ½Ğ¾.
 > db.users.find( { age: { $gte: 18, $lte: 30 } } );
 
-ğåãóëÿğêè
+Ñ€ĞµĞ³ÑƒĞ»ÑÑ€ĞºĞ¸
 > db.users.find( { "name" : /^joe$/i } );
 
 > db.users.find().limit(3);
 
-> db.users.find().skip(3); //Ïîëó÷àåì âñåõ ïîëüçîâàòåëåé, êğîìå ïåğâûõ òğ¸õ.
+> db.users.find().skip(3); //ĞŸĞ¾Ğ»ÑƒÑ‡Ğ°ĞµĞ¼ Ğ²ÑĞµÑ… Ğ¿Ğ¾Ğ»ÑŒĞ·Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»ĞµĞ¹, ĞºÑ€Ğ¾Ğ¼Ğµ Ğ¿ĞµÑ€Ğ²Ñ‹Ñ… Ñ‚Ñ€Ñ‘Ñ….
 
-> db.users.find().sort( { username : 1, age : -1 } ); //ïğàâèëà ñîğòèğîâêè
+> db.users.find().sort( { username : 1, age : -1 } ); //Ğ¿Ñ€Ğ°Ğ²Ğ¸Ğ»Ğ° ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²ĞºĞ¸
 
 > db.user.insert({ 
 
